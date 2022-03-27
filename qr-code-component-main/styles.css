@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 body {
     background-color: hsl(212, 45%, 89%);
@@ -15,7 +15,7 @@ body {
 .container {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
-    width: 330px;
+    width: 300px;
     height: fit-content;
     border-radius: 15px;
     margin-top: 10%;
@@ -29,16 +29,18 @@ body {
 
 .main-content {
     text-align: center;
-    padding-top: 7%;
     height: fit-content;
-    padding-bottom: 2%;
+    font-family: 'Outfit';
+    font-weight: 700;
+    padding-right: 4%;
+    padding-left: 4%;
     color: hsl(218, 44%, 22%);
 }
 
 .sub-content {
     text-align: center;
-    padding-top: 3%;
-    font-size: 105%;
+    /* padding-top: 3%; */
+    font-size: 15px;
     font-family: 'Outfit', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
@@ -46,17 +48,11 @@ body {
 
 .sub-content-2 {
     text-align: center;
-    padding-bottom: 10%;
-    font-size: 105%;
+    padding-bottom: 5%;
+    font-size: 15px;
     font-family: 'Outfit', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-}
-
-.font {
-    font-family: 'Outfit', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: x-large;
-    font-weight: 700;
 }
 
 .fk_it {
@@ -65,5 +61,7 @@ body {
 
 .new {
     padding-top: 0%;
+    margin-top: 0%;
+    border-top: 0%;
 }
 
