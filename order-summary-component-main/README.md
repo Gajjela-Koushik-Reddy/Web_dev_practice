@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Gajjela-Koushik-Reddy/Web_dev_practice/tree/main/order-summary-component-main)
-- Live Site URL: [Add live site URL here](https://gajjela-koushik-reddy.github.io/Web_dev_practice/order-summary-component-main/)
+- Solution URL: [https://github.com/Gajjela-Koushik-Reddy/Web_dev_practice/tree/main/order-summary-component-main](https://github.com/Gajjela-Koushik-Reddy/Web_dev_practice/tree/main/order-summary-component-main)
+- Live Site URL: [https://gajjela-koushik-reddy.github.io/Web_dev_practice/order-summary-component-main/](https://gajjela-koushik-reddy.github.io/Web_dev_practice/order-summary-component-main/)
 
 ## My process
 
