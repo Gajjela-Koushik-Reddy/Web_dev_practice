@@ -124,3 +124,7 @@ body, html {
 .payProcessText {
     margin: 14px 0px;
 }
+
+.cancel {
+    color: hsl(223, 47%, 23%);
+}
