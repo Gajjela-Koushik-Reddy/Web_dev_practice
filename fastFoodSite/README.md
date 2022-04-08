@@ -36,7 +36,7 @@ I am practicing web development by choosing sites and recreating them on my own.
 
 ### What I learned
 
-Reinforced my learnings of css flexbox from previous project. Did not try to bruteforce the items to put in place, instead I used flexbox to place the elements in the required positions.  
+Reinforced my learnings of css flexbox from previous project. Did not try to bruteforce the items to set them in place, instead I used flexbox to place the elements in the required positions.  
 
 
 ### Useful resources
