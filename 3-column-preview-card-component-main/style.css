@@ -25,6 +25,7 @@ font-family: 'Lexend Deca', sans-serif; */
     justify-content: center;
     margin: 0 300px 0 300px;
     width: 1000px;
+    height: 460px;
 }
 
 h1 {
@@ -135,6 +136,7 @@ button {
         justify-content: center;
         margin-left: 15px;
         margin-right: 15px;
+        width: 400px;
     }
     
     h1 {
@@ -190,6 +192,7 @@ button {
     
     .bg1 {
         margin-top: 900px;
+        height: 460px;
         padding: 50px;
         background-color: hsl(31, 77%, 52%);
         border-top-left-radius: 10px;
@@ -197,11 +200,13 @@ button {
     }
     
     .bg2 {
+        height: 460px;
         padding: 50px;
         background-color: hsl(184, 100%, 22%);
     }
     
     .bg3 {
+        height: 460px;
         padding: 50px;
         background-color: hsl(179, 100%, 13%);
         border-bottom-left-radius: 10px;
@@ -227,6 +232,4 @@ button {
         font-family: 'Lexend Deca', sans-serif;
         padding: 10px 25px;
     }
-    }
-
 }
