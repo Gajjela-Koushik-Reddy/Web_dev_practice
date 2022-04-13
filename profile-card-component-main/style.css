@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+@media (min-width: 1440px) {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 275% left -35%, bottom 275% right -35%;
+    background-color: hsl(185, 75%, 39%);
+
+}
+
+.card {
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.btc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+.pp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    margin-top: 25px;
+}
+
+.mainHeading {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    margin-top: 75px;
+}
+
+.color {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.dd {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: hsl(227, 10%, 46%);
+}
+
+.bgcard {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.victor {
+    border-radius: 50px;
+    padding: 5px;
+    background-color: white;
+    position: absolute;
+    margin-bottom: 5%;
+}
+
+hr {
+    width: 350px;
+    border-top: none;
+}
+}
+
+@media (max-width: 375px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: top 175% left 120%, bottom 175% right 120%;
+        background-color: hsl(185, 75%, 39%);
+    
+    }
+    
+    .card {
+        box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.2);
+        display: flex;
+        width: 320px;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    .btc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .pp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+        line-height: 20px;
+    }
+    
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+        width: 350px;
+        margin-top: 25px;
+    }
+    
+    .mainHeading {
+        display: flex;
+        justify-content: space-between;
+        width: 130px;
+        margin-top: 75px;
+    }
+    
+    .color {
+        color: hsl(227, 10%, 46%);
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-size: 18px;
+        color: hsl(229, 23%, 23%);
+    }
+    
+    p {
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+    
+    .dd {
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: 1px;
+        color: hsl(227, 10%, 46%);
+    }
+    
+    .bgcard {
+        max-width: 320px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .victor {
+        border-radius: 50px;
+        padding: 5px;
+        background-color: white;
+        position: absolute;
+        margin-bottom: 30%;
+    }
+    
+    hr {
+        width: 320px;
+        border-top: none;
+    }
+
+    
+}
