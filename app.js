@@ -22,6 +22,7 @@ function addTask(e) {
   }
 
   //else 
+  //This is a dummy comment
   //Make a li
     const li = document.createElement('l1');
 
